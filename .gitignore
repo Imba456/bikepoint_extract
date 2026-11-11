@@ -1,3 +1,9 @@
+#ignore data files
+data/
+
+#ignore log files
+logs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
