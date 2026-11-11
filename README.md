@@ -9,7 +9,7 @@ import datetime ✔️
 import requests ✔️
 import json ✔️
 import time ✔️
-import logging
+import logging ✔️
 
 timestamp for filename ✔️
 create a data folder ✔️
@@ -18,7 +18,7 @@ while loop, 3 < max
 call api ✔️
 check the response ✔️
     if status code 2xx
-        try - save data locally - except ❌
+        try - save data locally - except ✔️
         break
     elif status code 3xx or 4xx
         break & notify
