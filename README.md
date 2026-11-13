@@ -4,28 +4,28 @@ bikepoint extract repo to start obtaining data
 sudo code plan
 -----
 
-import os ✔️
-import datetime ✔️
-import requests ✔️
-import json ✔️
-import time ✔️
-import logging ✔️
+- [x] import os
+- [x] import datetime
+- [x] import requests
+- [x] import json
+- [x] import time
+- [x] import logging
 
-timestamp for filename ✔️
-create a data folder ✔️
+- [x] timestamp for filename
+- [x] create a data folder
 
-while loop, 3 < max
-call api ✔️
-check the response ✔️
-    if status code 2xx
-        try - save data locally - except ✔️
-        break
-    elif status code 3xx or 4xx
-        break & notify
-    else 
-        #+=1
-        wait 30 seconds
+- [ ] while loop, 3 < max
+    - [x] call api
+    - [x] check the response
+        - [x] if status code 2xx
+            - [x] try - save data locally - except
+            - [x] break
+        - [x] elif status code 3xx or 4xx
+            - [x] break & notify
+        - [x] else
+            - [x] #+=1
+            - [x] wait 30 seconds
 
-save data locally ✔️
+- [x] save data locally
 
 -----
