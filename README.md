@@ -1,7 +1,7 @@
 # bikepoint_extract
 bikepoint extract repo to start obtaining data
 
-sudo code plan
+sudo code plan for extract
 -----
 
 - [x] import os
@@ -29,3 +29,22 @@ sudo code plan
 - [x] save data locally
 
 -----
+
+sudo LOAD code
+- [x] import aws related packages - boto3
+- [x] import os
+- [x] import dotenv
+- [x] import logging
+
+- [ ] start logging
+- [x] read in keys
+- [x] where is json
+- [x] create a list
+- [x] connect to aws
+- [x] setup s3 client
+
+- [x] upload to s3
+- [x] for loop
+- [x] check the upload
+- [x] delete locally
+- [ ] end logging
