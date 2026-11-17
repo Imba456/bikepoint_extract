@@ -48,3 +48,8 @@ sudo LOAD code
 - [x] check the upload
 - [x] delete locally
 - [ ] end logging
+
+-----
+- [ ] modularize code for main.py
+- [ ] archive old files
+- [ ]
