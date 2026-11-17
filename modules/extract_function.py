@@ -23,7 +23,7 @@ def extract_from_bikepoint(api_endpoint: str ,data_dir: str, timestamp: str, max
 
     attempts = 0
     # max_attempts = 2
-
+    logger.info('logger initialised')
     while attempts <= max_attempts:
 
         response = requests.get(api_endpoint)
