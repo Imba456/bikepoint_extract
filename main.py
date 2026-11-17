@@ -11,7 +11,7 @@ log_filename = f'{log_dir}/{timestamp}.log'
 
 logging.basicConfig(
     filename = log_filename
-    ,format = '%(asctime)s - %(levelname)s - %(message)s'
+    ,format = '%(asctime)s - %(levelname)s - %(name)s - %(message)s'
     ,level = logging.INFO
 )
 
@@ -24,3 +24,5 @@ api_endpoint = 'https://api.tfl.gov.uk/BikePoint/'
 extract_result = extract_from_bikepoint(api_endpoint,data_dir,timestamp,max_attempts=2,delay=30) #you can add the argument by writing the name so the order can be different
 
 print(extract_result)
+
+logger.info('logger closed')

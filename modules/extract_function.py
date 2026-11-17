@@ -39,6 +39,7 @@ def extract_from_bikepoint(api_endpoint: str ,data_dir: str, timestamp: str, max
                 print(f'file {filename} saved successfully 👍')
                 logger.info(f'file {filename} saved successfully 👍')
                 #flag the function that data was saved
+                logger.info('logger closed')
                 return True
             
             except Exception as e:

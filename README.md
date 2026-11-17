@@ -51,5 +51,5 @@ sudo LOAD code
 
 -----
 - [ ] modularize code for main.py
+- [ ] update logging to include module names
 - [ ] archive old files
-- [ ]
