@@ -67,3 +67,5 @@ while attempts <= max_attempts:
         time.sleep(30)
 
 logger.info('logger closed')
+
+#preparing for its seperate function extract_function.py
