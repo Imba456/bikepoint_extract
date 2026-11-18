@@ -4,7 +4,7 @@ name: bike point ingestion
 #condition to run
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 #what to do
