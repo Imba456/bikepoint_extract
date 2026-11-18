@@ -1,0 +1,32 @@
+#self written to practice
+#name
+name: bike point ingestion
+#condition to run
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+#what to do
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: bike point des9
+    steps:
+      - name: checkout the repo
+        uses: actions/checkout@v7
+
+      - name: setup python
+        uses: actions/setup-python@v7
+        with:
+          python-version: 3.12
+          
+      - name: install packages
+        run: pip install -r requirements.txt
+
+      - name: run script
+        env:
+          aws_access_key: $(secrets.aws_access_key)
+          aws_secret: $(secrets.aws_secret)
+          s3_bucket: $(secrets.s3_bucket)
+        run: python main.py
