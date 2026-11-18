@@ -50,6 +50,6 @@ sudo LOAD code
 - [ ] end logging
 
 -----
-- [ ] modularize code for main.py
-- [ ] update logging to include module names
-- [ ] archive old files
+- [x] modularize code for main.py
+- [x] update logging to include module names
+- [x] archive old files
