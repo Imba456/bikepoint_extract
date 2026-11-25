@@ -14,7 +14,7 @@ sudo code plan for extract
 - [x] timestamp for filename
 - [x] create a data folder
 
-- [ ] while loop, 3 < max
+- [x] while loop, 3 < max
     - [x] call api
     - [x] check the response
         - [x] if status code 2xx
@@ -47,9 +47,12 @@ sudo LOAD code
 - [x] for loop
 - [x] check the upload
 - [x] delete locally
-- [ ] end logging
+- [x] end logging
 
 -----
-- [ ] modularize code for main.py
-- [ ] update logging to include module names
-- [ ] archive old files
+- [x] modularize code for main.py
+- [x] update logging to include module names
+- [x] archive old files
+
+-----
+for transform, see snowflake instance
